@@ -21,8 +21,8 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await fetch(
-       "https://ravan-ai-h7dl.onrender.com/api/chat",
+           const response = await fetch(
+        "https://ravan-ai-h7dl.onrender.com/api/chat",
         {
           method: "POST",
           headers: {
