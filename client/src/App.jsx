@@ -22,7 +22,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/chat",
+       "https://ravan-ai-h7dl.onrender.com/api/chat",
         {
           method: "POST",
           headers: {
